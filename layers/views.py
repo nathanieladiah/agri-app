@@ -1,3 +1,8 @@
 from django.shortcuts import render
 
-# Create your views here.
+# layer page
+def layer_home(request):
+	context = {}
+	return render(request, 'layers/home.html', context)
+
+# 
